@@ -1,5 +1,5 @@
 import React from "react";
-import { TitleComponent, VotesComponent } from "./components";
+import { Form1Component } from "./components";
 import { Container, Grid } from "@mui/material";
 
 function App() {
@@ -8,12 +8,9 @@ function App() {
       <header className="App-header"> </header>
       <main>
         <Container maxWidth="sm">
-          <Grid container flexDirection={'column'} py={4}>
+          <Grid container flexDirection={"column"} py={4}>
             <Grid item xs>
-              <TitleComponent title="Votes" />
-            </Grid>
-            <Grid item xs>
-              <VotesComponent name="John Doe" />
+              <Form1Component />
             </Grid>
           </Grid>
         </Container>
